@@ -2,9 +2,12 @@
 // used to connect to the database
 $host = getenv("MYSQL_SERVICE_HOST");
 $port = getenv("MYSQL_SERVICE_PORT");
-$db_name = getenv("MYSQL_DATABASE");
-$username = getenv("MYSQL_USER");
-$password = getenv("MYSQL_PASSWORD");
+$db_name = getenv("database_name");
+$username = getenv("username");
+$password = getenv("password");
+//$db_name = getenv("MYSQL_DATABASE");
+//$username = getenv("MYSQL_USER");
+//$password = getenv("MYSQL_PASSWORD");
 
 try {
 	$con = new PDO("mysql:host={$host};dbname={$db_name};port={$port}", $username, $password);
