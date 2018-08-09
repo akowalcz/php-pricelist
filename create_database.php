@@ -1,7 +1,7 @@
 <?php
 // used to connect to the database
-$host = getenv("MYSQL_SERVICE_HOST");
-$port = getenv("MYSQL_SERVICE_PORT");
+$host = getenv("DB_HOST");
+$port = getenv("DB_PORT");
 $db_name = getenv("DB_NAME");
 $username = getenv("DB_USER");
 $password = getenv("DB_PASSWORD");
