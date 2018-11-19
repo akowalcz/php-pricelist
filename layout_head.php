@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
      
-    <title><?php echo isset($page_title) ? $page_title : "Pricelist"; ?> - PHP CRUD</title>
+    <title><?php echo isset($page_title) ? $page_title : "Pricelist"; ?> - PHP DevOps</title>
  
     <!-- Bootstrap CSS -->
 	<link href="libs/js/bootstrap/dist/css/bootstrap.css" rel="stylesheet" media="screen">
