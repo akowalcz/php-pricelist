@@ -59,7 +59,7 @@ if($_POST){
 ?>
 
 <a href='read.php' class='btn btn-primary pull-right margin-bottom-1em'>
-	<span class='glyphicon glyphicon-list'></span> Read Records
+	<span class='glyphicon glyphicon-list'></span> Read Recordy
 </a>
 
 <!--we have our html form here where user information will be entered-->
